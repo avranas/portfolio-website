@@ -1,0 +1,48 @@
+html {
+  margin: 2rem;
+  color: #111111;
+  width: auto;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+}
+
+@media only screen and (max-width: 712px) {
+  html {
+  }
+
+  h1 {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    width: 100%;
+  }
+  #contact p{
+    text-align: center;
+  }
+  footer p{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+}
